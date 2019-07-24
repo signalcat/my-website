@@ -7,6 +7,9 @@ class Layout extends Component {
         return (
             <Aux>
                 <Toolbar></Toolbar>
+                <main>
+                    {this.props.children}
+                </main>
             </Aux>
         )
     }
