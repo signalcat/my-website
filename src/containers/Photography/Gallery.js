@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import classes from './Gallery.module.css';
 export class Gallery extends Component {
     
     
@@ -7,12 +8,11 @@ export class Gallery extends Component {
             return r.keys().map(r);
         }
         const images = importAll(require.context('../../assets/images', false, /\.(png|jpe?g|svg)$/));
-
         return (
-            <div>
+            <div className={classes.Gallery}>
                 {
                     images.map((path, index) => {
-                        return <img key={index} src={path} alt="pic"/>;
+                        return <img key={index} src={path} alt="pic" className={classes.GalleryImage}/>;
                     })
                 }
             </div>
