@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="668px" height="682px" viewBox="0 0 668 682" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>he1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="209" height="413"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="he1">
+            <path d="M334.000013,2.70783298e-07 C519.097678,3.72720731 668,154.939394 668,340.929581 C668,526.919768 519.097678,678.131955 334.000013,681.859162 L334,1.13686838e-13 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+            <path d="M1.34474221e-05,2.70783298e-07 C185.097678,3.72720731 334,154.939394 334,340.929581 C334,526.919768 185.097678,678.131955 1.3447422e-05,681.859162 L0,1.13686838e-13 Z" id="Combined-Shape" fill="#5FD1DD" transform="translate(167.000000, 340.929581) scale(-1, 1) translate(-167.000000, -340.929581) "></path>
+            <text id="鹤" font-family="PingFangSC-Medium, PingFang SC" font-size="400" font-weight="400" fill="#5FD1DD">
+                <tspan x="127" y="466">鹤</tspan>
+            </text>
+            <g id="鹤" transform="translate(121.000000, 116.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Mask"></g>
+                <text mask="url(#mask-2)" font-family="PingFangSC-Medium, PingFang SC" font-size="400" font-weight="400" fill="#FFFFFF">
+                    <tspan x="6" y="350">鹤</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
