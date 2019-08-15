@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Aux from '../../hoc/Aux';
 import classes from './HomePage.module.css';
+import logo from '../../assets/images/he1.svg'
 
 export class HomePage extends Component {
 
@@ -20,6 +21,7 @@ export class HomePage extends Component {
                             <li className={classes.ListItem}><a>博客</a></li>
                             <li className={classes.ListItem}><a>邮件</a></li>
                         </ul>
+                        <img src={logo} className={classes.logo}></img>
                     </div>
                     <div className={classes.Panel + " " + classes.RightPannel}>
                         <div className={classes.RightText}>
