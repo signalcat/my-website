@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import Aux from '../../hoc/Aux';
 import classes from './HomePage.module.css';
-import logo from '../../assets/images/he1.svg'
+import logo from '../../assets/images/he1.svg';
+import crane from '../../assets/images/cranewhite.svg';
 
 export class HomePage extends Component {
 
@@ -16,12 +17,13 @@ export class HomePage extends Component {
                             <h3>前端工程师</h3>
                         </div>
                         <ul className={classes.LeftList}>
-                            <li className={classes.ListItem}><a>简历</a></li>
+                            <li className={classes.ListItem}><a href="/Resume">简历</a></li>
                             <li className={classes.ListItem}><a>代码</a></li>
                             <li className={classes.ListItem}><a>博客</a></li>
                             <li className={classes.ListItem}><a>邮件</a></li>
                         </ul>
                         <img src={logo} className={classes.logo}></img>
+                        <img src={crane} className={classes.crane}></img>
                     </div>
                     <div className={classes.Panel + " " + classes.RightPannel}>
                         <div className={classes.RightText}>
