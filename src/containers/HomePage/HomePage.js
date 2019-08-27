@@ -3,6 +3,7 @@ import Aux from '../../hoc/Aux';
 import classes from './HomePage.module.css';
 import logo from '../../assets/images/he1.svg';
 import crane from '../../assets/images/cranewhite.svg';
+import NavigationItem from '../../components/Navigation/NavigationItems/NavigationItem/NavigationItem';
 
 export class HomePage extends Component {
 
@@ -17,8 +18,9 @@ export class HomePage extends Component {
                             <h3>前端工程师</h3>
                         </div>
                         <ul className={classes.LeftList}>
-                            <li className={classes.ListItem}><a href="/Resume">简历</a></li>
+                            <li className={classes.ListItem}><a href="/Experience">简历</a></li>
                             <li className={classes.ListItem}><a>代码</a></li>
+                            <li className={classes.ListItem}><NavigationItem link="/Gallery">摄影作品</NavigationItem></li>
                             <li className={classes.ListItem}><a>博客</a></li>
                             <li className={classes.ListItem}><a>邮件</a></li>
                         </ul>
@@ -32,8 +34,9 @@ export class HomePage extends Component {
                             <h3>Front-End Engineer</h3>
                         </div>
                         <ul className={classes.RightList}>
-                            <li className={classes.ListItem}><a>Resume</a></li>
+                            <li className={classes.ListItem}><a>Experience</a></li>
                             <li className={classes.ListItem}><a>Github</a></li>
+                            <li className={classes.ListItem}><NavigationItem link="/Gallery">Gallery</NavigationItem></li>
                             <li className={classes.ListItem}><a>Blog</a></li>
                             <li className={classes.ListItem}><a>Email</a></li>
                         </ul>
