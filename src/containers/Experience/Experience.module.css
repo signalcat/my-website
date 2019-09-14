@@ -1,45 +1,37 @@
 .Experience {
     text-align: center;
-    background-color: #5FD1DD;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .title {
+    font-family: sans-serif;
     width: 100%;
 }
 
 .AppContainer{
-    width: 80%;
-    border-radius: 10px;
-    box-shadow: 1px 1px 2px grey;
+    background-color: #5FD1DD; 
+    color: white;
+    padding-top: 80px;
+    width: 100%;
     text-align: center;
-    background-color: white;
-    display: flex;
-    flex-flow: row wrap;
+    font-family: sans-serif;
 }
 
 .appTitle {
-    font: 30px bold;
-    border-radius: 10px 10px 0px 0px;
-    background-color: white;
-    flex: 1 100%;
-    padding: 20px;
+    font-size: 50px;
 }
 
 
 .AppImage { 
     padding: 20px;
     height: 400px;
-    flex: 1;
 }
 
 .listContainer {
     border-radius: 0px 0px 10px 10px;
     margin: 0;
-    flex: 2;
-    display: flex;
 }
 
 .list {

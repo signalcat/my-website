@@ -20,7 +20,7 @@ export class HomePage extends Component {
                         <ul className={classes.LeftList}>
                             <li className={classes.ListItem}><a href="/Experience">简历</a></li>
                             <li className={classes.ListItem}><a>代码</a></li>
-                            <li className={classes.ListItem}><NavigationItem link="/Gallery">摄影作品</NavigationItem></li>
+                            <li className={classes.ListItem}><a href="/Gallery">摄影作品</a></li>
                             <li className={classes.ListItem}><a>博客</a></li>
                             <li className={classes.ListItem}><a>邮件</a></li>
                         </ul>
@@ -36,7 +36,7 @@ export class HomePage extends Component {
                         <ul className={classes.RightList}>
                             <li className={classes.ListItem}><a>Experience</a></li>
                             <li className={classes.ListItem}><a>Github</a></li>
-                            <li className={classes.ListItem}><NavigationItem link="/Gallery">Gallery</NavigationItem></li>
+                            <li className={classes.ListItem}><a href="/Gallery">Gallery</a></li>
                             <li className={classes.ListItem}><a>Blog</a></li>
                             <li className={classes.ListItem}><a>Email</a></li>
                         </ul>
