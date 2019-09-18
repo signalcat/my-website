@@ -1,13 +1,21 @@
-.GalleryImage {
-    width: 20%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-/* the div outside all img components */
 .Gallery {
     margin-top: 100px;
-    align-items: baseline;
+}
+
+.GalleryImage {
+    width: 25%;
+    margin: 10px;
+    
+}
+
+.albumn {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.albumnTitle {
     width: 100%;
+    text-align: center;
 }
